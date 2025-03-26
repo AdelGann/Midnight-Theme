@@ -38,32 +38,32 @@
 			}
 		},
 		{
-			"scope": ["variable"],
+			"scope": ["variable", "variable.other.object"],
 			"settings": {
 				"foreground": "#89ddff"
 			}
 		},
 		{
-			"scope": ["keyword.control", "storage.type"],
+			"scope": ["keyword.control", "storage.type", "keyword.operator"],
 			"settings": {
 				"foreground": "#e783d8"
 			}
 		},
 		{
-			"scope": ["string"],
+			"scope": ["string", "string.quoted.double", "string.quoted.single"],
 			"settings": {
 				"foreground": "#7fd0c4"
 			}
 		},
 		{
-			"scope": ["comment"],
+			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"foreground": "#464b55",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["constant.numeric"],
+			"scope": ["constant.numeric", "constant.language", "constant.character"],
 			"settings": {
 				"foreground": "#f78c6c"
 			}
@@ -114,6 +114,85 @@
 			"settings": {
 				"foreground": "#82aaff",
 				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"scope": ["support.type.property-name", "support.type.property-name.json"],
+			"settings": {
+				"foreground": "#ff9cac"
+			}
+		},
+		{
+			"scope": ["punctuation.separator.key-value"],
+			"settings": {
+				"foreground": "#e783d8"
+			}
+		},
+		{
+			"scope": ["punctuation.separator.comma"],
+			"settings": {
+				"foreground": "#89ddff"
+			}
+		},
+		{
+			"scope": ["punctuation.definition.block", "punctuation.definition.array"],
+			"settings": {
+				"foreground": "#89ddff"
+			}
+		},
+		{
+			"scope": ["support.function"],
+			"settings": {
+				"foreground": "#82aaff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": ["support.class", "entity.name.class", "entity.name.type.class"],
+			"settings": {
+				"foreground": "#ffcb6b",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["meta.object-literal.key"],
+			"settings": {
+				"foreground": "#ff9cac"
+			}
+		},
+		{
+			"scope": ["support.type.property-name", "support.type.property-name.json"],
+			"settings": {
+				"foreground": "#ff9cac" // Color rosa suave para las keys
+			}
+		},
+		{
+			"scope": ["string.quoted.double.json", "string.quoted.single.json"],
+			"settings": {
+				"foreground": "#7fd083" // Color verde azulado para los values
+			}
+		},
+		{
+			"scope": ["punctuation.separator.key-value.json"],
+			"settings": {
+				"foreground": "#e783d8" // Color para los dos puntos
+			}
+		},
+		{
+			"scope": ["punctuation.separator.comma.json"],
+			"settings": {
+				"foreground": "#89ddff" // Color para las comas
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json"
+			],
+			"settings": {
+				"foreground": "#89ddff" // Color para llaves y corchetes
 			}
 		}
 	]
