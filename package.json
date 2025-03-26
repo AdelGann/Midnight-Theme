@@ -1,0 +1,21 @@
+{
+	"name": "midnight-theme",
+	"displayName": "Midnight Theme",
+	"description": "Un tema oscuro y elegante para VS Code/Cursor",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/midnight-color-theme.json"
+			}
+		]
+	}
+}
