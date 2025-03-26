@@ -3,6 +3,11 @@
 	"displayName": "Midnight Theme",
 	"description": "Un tema oscuro y elegante para VS Code/Cursor",
 	"version": "0.0.1",
+	"publisher": "tu-nombre",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tu-usuario/midnight-theme"
+	},
 	"engines": {
 		"vscode": "^1.75.0"
 	},
